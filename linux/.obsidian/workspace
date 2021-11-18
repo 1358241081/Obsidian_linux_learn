@@ -1,0 +1,108 @@
+{
+  "main": {
+    "id": "96d7079a5739e9ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "67bfe84c9a5fb5c9",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a7b02a6be5175943",
+    "type": "split",
+    "children": [
+      {
+        "id": "3555b51f163ba5ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9110b76274d770f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "124381430fd2de20",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#权限控制",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 461
+  },
+  "right": {
+    "id": "d73d9da26bccae6f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b390d5986455ec57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dcb60aada1b81f76",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "49da75d182bab732",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 319
+  },
+  "active": "67bfe84c9a5fb5c9",
+  "lastOpenFiles": [
+    "附件/pdf/UNIX环境高级编程(第二版中文).pdf",
+    "附件/pdf/Linux命令行与shell脚本编程大全  第3版  ,布鲁姆 ,P606.pdf",
+    "附件/pdf/深入Linux内核架构(jb51.net).pdf",
+    "附件/pdf/鸟哥的Linux私房菜 第三版.pdf",
+    "附件/《鸟哥的Linux私房菜-基础篇》第四版/《鸟哥的Linux私房菜-基础篇》第四版.pdf",
+    "附件/pdf/Unix网络编程 第1卷 套接口API 第三版.pdf",
+    "附件/pdf/UNIX网络编程 第1卷 套接口API.pdf",
+    "笔记/用户与群组.md",
+    "笔记/03权限控制.md",
+    "笔记/04systemd.md"
+  ]
+}
