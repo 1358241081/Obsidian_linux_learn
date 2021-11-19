@@ -1,16 +1,6 @@
 {
-  "baseFontSize": 21,
+  "baseFontSize": 22,
   "theme": "moonstone",
   "cssTheme": "",
-  "enabledCssSnippets": [
-    "center-images",
-    "checkbox",
-    "clutter-free-formatting",
-    "clutter-free-headings",
-    "inline-block-embeds",
-    "notation-colour-blocks",
-    "obsidianite-fonts",
-    "omega-hr",
-    "realistic-highlight"
-  ]
+  "enabledCssSnippets": []
 }
