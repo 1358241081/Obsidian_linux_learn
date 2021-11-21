@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "eca4f94dd3fc3d82",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2a1fca767a83634",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "linux/附件/images/Pasted image 20211121065512.png"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "68a661b04fbede8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d6a8e88a487486a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "909f70313aa96bf9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "db909a17da8115cf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "35d2743205a699e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "62ebd935be096732",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be99843063d923fe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "linux/附件/images/Pasted image 20211121065512.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c2a1fca767a83634",
+  "lastOpenFiles": [
+    "linux/附件/images/Pasted image 20211121065512.png",
+    "linux/笔记/03权限控制.md",
+    "linux/笔记/系统/用户与群组.md",
+    "linux/笔记/磁盘管理/文件系统.md",
+    "linux/笔记/磁盘管理/数据备份与恢复.md",
+    "linux/笔记/磁盘管理/磁盘分区.md",
+    "linux/笔记/磁盘管理/磁盘的物理结构.md",
+    "linux/笔记/02磁盘管理.md",
+    "linux/笔记/01shell.md"
+  ]
+}
