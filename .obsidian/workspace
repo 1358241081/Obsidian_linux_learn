@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "58fdfcf65f70261f",
+        "id": "28bdc4b767b21c9c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "linux/笔记/linux系统知识/磁盘管理/配置文件.md",
-            "mode": "source"
+            "file": "linux/笔记/linux系统知识/系统/文件.md",
+            "mode": "preview"
           }
         }
       }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 531
+    "width": 468
   },
   "right": {
     "id": "35d2743205a699e4",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/笔记/linux系统知识/磁盘管理/配置文件.md",
+                "file": "linux/笔记/linux系统知识/系统/文件.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "58fdfcf65f70261f",
+  "active": "28bdc4b767b21c9c",
   "lastOpenFiles": [
-    "linux/笔记/linux系统知识/磁盘管理/配置文件.md",
-    "linux/索引/00前言.md",
-    "linux/笔记/linux系统知识/03权限控制.md",
+    "linux/笔记/linux系统知识/系统/文件.md",
     "linux/笔记/linux系统知识/磁盘管理/数据备份与恢复.md",
-    "linux/笔记/linux系统知识/磁盘管理/磁盘配额.md",
+    "linux/附件/《鸟哥的Linux私房菜-基础篇》第四版/《鸟哥的Linux私房菜-基础篇》第四版.pdf",
+    "linux/笔记/linux系统知识/系统/用户与群组.md",
+    "linux/笔记/linux系统知识/磁盘管理/inode,block,superblock.md",
+    "linux/笔记/linux系统知识/磁盘管理/bios&coms.md",
     "linux/笔记/linux系统知识/磁盘管理/磁盘分区.md",
     "linux/笔记/linux系统知识/磁盘管理/磁盘的物理结构.md",
-    "linux/笔记/linux系统知识/01shell.md",
-    "linux/笔记/linux系统知识/02磁盘管理.md",
-    "linux/笔记/linux系统知识/系统/用户与群组.md"
+    "linux/笔记/linux系统知识/磁盘管理/文件系统.md",
+    "linux/笔记/linux系统知识/磁盘管理/linux下磁盘管理命令.md"
   ]
 }
