@@ -1,7 +1,7 @@
 本章节内容主要参考以下资料
 [[Linux命令行与shell脚本编程大全  第3版  ,布鲁姆 ,P606.pdf]]
 [[《鸟哥的Linux私房菜-基础篇》第四版.pdf]]
-[[README|pure-bash-bible]]
+[[linux/附件/pure-bash-bible-zh_CN/README|pure-bash-bible]]
 
 课外小知识：
 
