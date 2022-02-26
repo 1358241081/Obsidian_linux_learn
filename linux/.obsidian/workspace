@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "ba1aebf2d3541437",
+    "id": "3018a83f69ba8634",
     "type": "split",
     "children": [
       {
-        "id": "39a3a93b22dfb9cc",
+        "id": "e3ef712dd45a671a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "笔记/03权限控制.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/03权限控制.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +96,7 @@
     "direction": "horizontal",
     "width": 253
   },
-  "active": "39a3a93b22dfb9cc",
+  "active": "e3ef712dd45a671a",
   "lastOpenFiles": [
     "笔记/03权限控制.md",
     "笔记/系统/文件.md",

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "linux/笔记/linux系统知识/磁盘管理/bios&coms.md",
-            "mode": "source"
+            "file": "linux/笔记/linux系统知识/磁盘管理/lvm.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/笔记/linux系统知识/磁盘管理/bios&coms.md",
+                "file": "linux/笔记/linux系统知识/磁盘管理/lvm.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "4b6b6ceeed219e92",
   "lastOpenFiles": [
-    "linux/笔记/linux系统知识/磁盘管理/bios&coms.md",
     "linux/笔记/linux系统知识/磁盘管理/lvm.md",
+    "linux/笔记/linux系统知识/磁盘管理/raid.md",
+    "编程工具/笔记/vim.md",
+    "编程工具/笔记/git.md",
+    "编程工具/笔记/gcc&gdb.md",
+    "编程工具/笔记/cmake.md",
+    "linux/笔记/linux系统知识/磁盘管理/bios&coms.md",
     "linux/笔记/linux系统知识/磁盘管理/inode,block,superblock.md",
     "linux/笔记/linux系统知识/磁盘管理/linux下磁盘管理命令.md",
-    "linux/笔记/linux系统知识/磁盘管理/磁盘的物理结构.md",
-    "linux/笔记/linux系统知识/磁盘管理/文件系统扩展与减少.md",
-    "linux/笔记/linux系统知识/磁盘管理/文件系统.md",
-    "linux/笔记/linux系统知识/系统/用户与群组.md",
-    "linux/笔记/linux系统知识/03权限控制.md",
-    "readme.md"
+    "linux/笔记/linux系统知识/磁盘管理/磁盘的物理结构.md"
   ]
 }
