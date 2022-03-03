@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "linux/笔记/linux系统知识/磁盘管理/lvm.md",
+            "file": "linux/笔记/linux系统知识/磁盘管理/配置文件.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/笔记/linux系统知识/磁盘管理/lvm.md",
+                "file": "linux/笔记/linux系统知识/磁盘管理/配置文件.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "4b6b6ceeed219e92",
   "lastOpenFiles": [
-    "linux/笔记/linux系统知识/磁盘管理/lvm.md",
-    "linux/笔记/linux系统知识/磁盘管理/raid.md",
-    "编程工具/笔记/vim.md",
-    "编程工具/笔记/git.md",
-    "编程工具/笔记/gcc&gdb.md",
-    "编程工具/笔记/cmake.md",
+    "linux/笔记/linux系统知识/磁盘管理/配置文件.md",
+    "linux/笔记/linux系统知识/磁盘管理/磁盘配额.md",
+    "linux/笔记/linux系统知识/磁盘管理/磁盘分区.md",
+    "linux/笔记/linux系统知识/磁盘管理/磁盘的物理结构.md",
     "linux/笔记/linux系统知识/磁盘管理/bios&coms.md",
-    "linux/笔记/linux系统知识/磁盘管理/inode,block,superblock.md",
-    "linux/笔记/linux系统知识/磁盘管理/linux下磁盘管理命令.md",
-    "linux/笔记/linux系统知识/磁盘管理/磁盘的物理结构.md"
+    "linux/笔记/linux系统知识/磁盘管理/libparted/libparted学习.md",
+    "readme.md",
+    "linux/附件/Pasted image 20211228174843.png",
+    "linux/笔记/linux系统知识/磁盘管理/lvm.md",
+    "linux/笔记/linux系统知识/磁盘管理/raid.md"
   ]
 }
