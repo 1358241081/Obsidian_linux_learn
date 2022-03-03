@@ -22,7 +22,7 @@ swapoff
 quota
 fsck ：检查分区表
 badblocks
-fuser -mv /path
+fuser
 tune2fs
 e2label
 hdparm
