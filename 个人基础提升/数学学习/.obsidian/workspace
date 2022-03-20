@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "64aa09cc50aa2d81",
+    "id": "c75a64ee735e49f0",
     "type": "split",
     "children": [
       {
-        "id": "19ba32533b88b4ba",
+        "id": "5dd6c604a1bfb87e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "编程语言学习/c++/笔记/c++11新特性.md",
-            "mode": "preview"
+            "file": "笔记/高一：集合.md",
+            "mode": "source"
           }
         }
       }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "68a661b04fbede8f",
+    "id": "844d3e4070ce2ac3",
     "type": "split",
     "children": [
       {
-        "id": "9d6a8e88a487486a",
+        "id": "b7eceafa8dcbd3d1",
         "type": "tabs",
         "children": [
           {
-            "id": "909f70313aa96bf9",
+            "id": "6f463bc8d420f35d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,13 +34,13 @@
             }
           },
           {
-            "id": "db909a17da8115cf",
+            "id": "7d4999c95d5d0561",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -52,24 +52,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213
+    "width": 300
   },
   "right": {
-    "id": "35d2743205a699e4",
+    "id": "a3f851f002a77b6c",
     "type": "split",
     "children": [
       {
-        "id": "62ebd935be096732",
+        "id": "2601aff1d7756b0b",
         "type": "tabs",
         "children": [
           {
-            "id": "be99843063d923fe",
+            "id": "e0b97aa3cdb2ad25",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言学习/c++/笔记/c++11新特性.md",
-                "collapseAll": true,
+                "file": "笔记/高一：集合.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -83,19 +83,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 300,
+    "collapsed": true
   },
-  "active": "19ba32533b88b4ba",
+  "active": "5dd6c604a1bfb87e",
   "lastOpenFiles": [
-    "编程语言学习/c++/笔记/c++11新特性.md",
-    "编程语言学习/c++/索引/00 目录.md",
-    "编程语言学习/c++/笔记/堆栈与内存管理.md",
-    "编程语言学习/c++/笔记/vptr和vtb.md",
-    "读书笔记/开篇.md",
-    "读书笔记/索引/目录.md",
-    "读书笔记/笔记/监视资本主义：智能陷阱.md",
-    "读书笔记/附件/监视资本主义_纪录片_截图.png",
-    "读书笔记/未命名.md",
-    "个人基础提升/英语学习/笔记/第一课.md"
+    "笔记/高一：集合.md",
+    "附件/Pasted image 20220116212154.png",
+    "附件/Pasted image 20220116212451.png",
+    "附件/Pasted image 20220116210219.png",
+    "笔记/零散的概念.md",
+    "索引/目录.md"
   ]
 }
