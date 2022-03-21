@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "编程语言学习/c++/笔记/c++11新特性.md",
+            "file": "readme.md",
             "mode": "preview"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213
+    "width": 485
   },
   "right": {
     "id": "35d2743205a699e4",
@@ -68,13 +68,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编程语言学习/c++/笔记/c++11新特性.md",
+                "file": "readme.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -83,19 +83,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 355
   },
   "active": "19ba32533b88b4ba",
   "lastOpenFiles": [
-    "编程语言学习/c++/笔记/c++11新特性.md",
-    "编程语言学习/c++/索引/00 目录.md",
-    "编程语言学习/c++/笔记/堆栈与内存管理.md",
-    "编程语言学习/c++/笔记/vptr和vtb.md",
-    "读书笔记/开篇.md",
-    "读书笔记/索引/目录.md",
-    "读书笔记/笔记/监视资本主义：智能陷阱.md",
-    "读书笔记/附件/监视资本主义_纪录片_截图.png",
-    "读书笔记/未命名.md",
-    "个人基础提升/英语学习/笔记/第一课.md"
+    "readme.md",
+    "linux/linux系统编程/笔记/进程.md",
+    "linux/linux系统编程/附件/Pasted image 20220313192738.png",
+    "linux/linux系统知识/笔记/03权限控制.md",
+    "linux/linux系统知识/索引/00前言.md",
+    "linux/linux系统编程/索引/目录.md",
+    "linux/linux系统编程/笔记/内核.md",
+    "linux/linux系统知识/附件/images/Pasted image 20220313204522.png",
+    "linux/linux系统知识/附件/images/Pasted image 20220313203123.png",
+    "编程语言学习/c++/笔记/c++11新特性.md"
   ]
 }
