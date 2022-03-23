@@ -1,3 +1,6 @@
+
+## superblock
+
 ## inode
 ### 查看inode相关命令
 ls -i
@@ -8,6 +11,5 @@ filefrag -v
 
 ## block
 
-## superblock
 
 

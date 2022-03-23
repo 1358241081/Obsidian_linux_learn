@@ -15,6 +15,7 @@ du
 ### 数据读写
 dd
 shred
+### 其他
 partprobe
 [[linux下磁盘管理命令#dumpe2fs|dumpe2fs]]
 swapon
