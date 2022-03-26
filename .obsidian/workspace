@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "2f6496dc7feefe0c",
+        "id": "419bd13e50d95f22",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "linux/linux系统知识/笔记/磁盘管理/笔记/文件系统.md",
-            "mode": "preview"
+            "file": "linux/linux系统编程/笔记/进程.md",
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304
+    "width": 513
   },
   "right": {
     "id": "35d2743205a699e4",
@@ -68,14 +68,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/linux系统知识/笔记/磁盘管理/笔记/文件系统.md",
+                "file": "linux/linux系统编程/笔记/进程.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -83,20 +83,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355,
-    "collapsed": true
+    "width": 355
   },
-  "active": "2f6496dc7feefe0c",
+  "active": "419bd13e50d95f22",
   "lastOpenFiles": [
-    "linux/linux系统知识/笔记/磁盘管理/笔记/文件系统.md",
-    "linux/linux系统知识/笔记/磁盘管理/笔记/磁盘的物理结构.md",
-    "linux/linux系统知识/笔记/磁盘管理/笔记/磁盘分区.md",
-    "linux/linux系统知识/笔记/磁盘管理/笔记/磁盘配额.md",
-    "linux/linux系统编程/笔记/内核.md",
     "linux/linux系统编程/笔记/进程.md",
-    "readme.md",
-    "linux/linux系统知识/笔记/磁盘管理/笔记/inode,block,superblock.md",
-    "linux/linux系统知识/笔记/磁盘管理/笔记/linux下磁盘管理命令.md",
-    "linux/linux系统知识/附件/images/Pasted image 20211106175422.png"
+    "linux/linux系统编程/附件/images/linux二进制程序类型.png",
+    "linux/linux系统知识/系统/笔记/02磁盘管理.md",
+    "linux/readme.md",
+    "linux/linux系统知识/系统/索引/linux系统目录.md",
+    "linux/linux系统知识/磁盘管理/索引/磁盘管理目录.md",
+    "linux/linux系统知识/系统/笔记/00开关机与帮助.md",
+    "linux/linux系统知识/系统/笔记/08proc.md",
+    "linux/linux系统编程/索引/linux系统编程目录.md",
+    "linux/linux系统编程/笔记/内核.md"
   ]
 }
