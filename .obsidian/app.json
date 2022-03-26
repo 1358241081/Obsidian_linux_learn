@@ -1,10 +1,5 @@
 {
-  "promptDelete": false,
-  "alwaysUpdateLinks": true,
-  "pdfExportSettings": {
-    "pageSize": "A3",
-    "landscape": false,
-    "margin": "0",
-    "downscalePercent": 100
-  }
+  "communityPluginSortOrder": "release",
+  "vimMode": false,
+  "alwaysUpdateLinks": true
 }
