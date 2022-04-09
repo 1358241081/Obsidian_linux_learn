@@ -7,9 +7,10 @@
         "id": "c04e538197291a09",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "linux/linux系统编程/附件/images/vfat下无法创建命名管道.png"
+            "file": "linux/linux通用服务框架/笔记/nfs服务.md",
+            "mode": "source"
           }
         }
       }
@@ -51,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 482
+    "width": 366
   },
   "right": {
     "id": "5d2280dc5261987e",
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/linux系统编程/附件/images/vfat下无法创建命名管道.png",
+                "file": "linux/linux通用服务框架/笔记/nfs服务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +88,15 @@
   },
   "active": "c04e538197291a09",
   "lastOpenFiles": [
-    "linux/linux系统编程/附件/images/vfat下无法创建命名管道.png",
-    "linux/linux系统编程/附件/images/vfs抽象.png",
-    "linux/linux系统编程/附件/images/linux二进制程序类型.png",
+    "linux/linux通用服务框架/笔记/nfs服务.md",
+    "linux/linux通用服务框架/附件/nfs服务器分享目录示意图.png",
+    "readme.md",
+    "linux/linux通用服务框架/索引/目录.md",
+    "运维/pxe 无人值守/pxe(pre-boot eecution environment).md",
     "linux/linux系统编程/笔记/虚拟文件系统.md",
-    "linux/linux系统知识/磁盘管理/索引/磁盘管理目录.md",
-    "linux/linux系统知识/系统/笔记/06文件.md",
+    "linux/linux系统知识/磁盘管理/笔记/配置文件.md",
     "linux/linux系统知识/磁盘管理/笔记/基于磁盘的文件系统.md",
-    "linux/linux系统知识/磁盘管理/笔记/inode,block,superblock.md",
-    "linux/linux系统编程/索引/linux系统编程目录.md",
-    "linux/linux系统知识/系统/笔记/09 防火墙.md"
+    "linux/linux系统知识/磁盘管理/笔记/数据备份与恢复.md",
+    "linux/linux系统知识/磁盘管理/笔记/bios&coms.md"
   ]
 }
