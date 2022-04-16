@@ -5,8 +5,43 @@
 主要参考以下两篇内容：
 https://www.cnblogs.com/gmpy/p/13202562.html#1971262189
 https://blog.csdn.net/Q1302182594/article/details/52344503
+
+如果想要详细研究的话 man bash更加详细，但是太多了，我个人认为除非专门去做，否则不要在一个工具上下这么多功夫了。
+而对于一般的研究 上面第一个链接有非常丰富的介绍，第二个链接里有有一个简单的例子。
+
 ## 命令
  自动补全是Bash Shell的功能，主要是利用了其内建的两个命令**compgen**和**complete**。
+ 
+ ### compgen
+```bash
+	compgen -W "aa ab bb cc" -- "a"
+```
+	
+表示从"aa ab bb cc"  匹配出以“a”开头的单词，上述命令的返回结果就是 “aa ab”：
+```bash
+liuwh@liuwh-PC:~/Desktop$ compgen -W "aa ab bb cc" -- "a"
+aa
+ab
+liuwh@liuwh-PC:~/Desktop$
+```
+
+ ### complete
+  语法：complete 补全行为选项 命令名
+     解析：可用的行为选项如下所示：
+- -F：执行指定函数名，候选结果保存在 COMPREPLY 数组变量里，补全功能更强大，可以实现命令参数补全，函数名在 /etc/bash_completion定义的。
+- -f：补全文件名，后可跟 -X 参数。
+-  -X：过滤表达式，符合表达式的文件名会被排除，即不会在补全候选显示出来，如果以感叹号开头，则表示反转，即符合表达式的文件名才显示。
+-  -o：补全类型，filenames 表示补全的是一个文件，跟 -f 参数使用才有效；其它值如dirnames 表示补全目录。
+ 
+ 相关示例hello.sh可以去附件=》bash脚本补全中查看。
+ 使用方式是：
+ ```
+ source hello_complete # source 方式运行脚本 更新补全函数  root用户运行
+ PATH=$(pwd):PATH	# 添加当前路径到环境变量中
+ hello.sh  --[TAB]  # 执行脚本 tab补全
+ ```
+ ![[bash补全示例.png]]
+ ## 内建变量
  
  ### COMP_CWORD
 ${COMP_WORDS} 的索引，指向当前光标位置所在的词。这个变量只有在被可编程补全功能 (参见下面的 Programmable Completion 章节) 调用的 shell 函数中才可用。
@@ -31,4 +66,3 @@ ${COMP_WORDS} 的索引，指向当前光标位置所在的词。这个变量只
 
 ### GLOBIGNORE
 一个冒号分隔的模式列表，定义了路径名扩展时要忽略的文件名集合。 如果一个文件名与路径扩展模式匹配，同时匹配 `GLOBIGNORE` 中的一个模式时，它被从匹配列表中删除。
- 
