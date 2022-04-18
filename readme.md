@@ -24,6 +24,9 @@ src="https://wiki.archlinux.org/title/Fstab_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%8
 >
 </iframe>
 ```
+对于网页来说 如果是多个网页链接 最好以无序列表形式
+- www.baidu.com
+- www.google.com
 ***5、图片排版尽量统一 ***
 ***6、以二级标题作为页面初始标题***
 ***7、给链接取别名  示例：***

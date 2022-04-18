@@ -3,8 +3,8 @@
 主要目的是记录 命令行工具及脚本怎么做到按tab键补全的功能。
 
 主要参考以下两篇内容：
-https://www.cnblogs.com/gmpy/p/13202562.html#1971262189
-https://blog.csdn.net/Q1302182594/article/details/52344503
+- https://www.cnblogs.com/gmpy/p/13202562.html#1971262189
+- https://blog.csdn.net/Q1302182594/article/details/52344503
 
 如果想要详细研究的话 man bash更加详细，但是太多了，我个人认为除非专门去做，否则不要在一个工具上下这么多功夫了。
 而对于一般的研究 上面第一个链接有非常丰富的介绍，第二个链接里有有一个简单的例子。
