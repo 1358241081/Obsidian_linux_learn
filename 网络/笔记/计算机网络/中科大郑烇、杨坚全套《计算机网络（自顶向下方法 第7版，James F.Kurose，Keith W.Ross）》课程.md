@@ -2,8 +2,37 @@
 配套学习视频选用b站的数学微课帮视频：
 - https://www.bilibili.com/video/BV1JV411t7ow?spm_id_from=333.999.0.0
 
+### 课程主要内容介绍
+TCP:
+UDP:
+
+传统：
+-	ip协议
+-	路由协议
+
+SDN(Software Defined Network):
+- 数据平面（交换机）
+- 控制平面（操作系统）
+
 
 ### 1.1 什么是Internet？
+![[Pasted image 20220422232133.png]]
+![[Pasted image 20220424210246.png]]
+端系统：end system
+![[Pasted image 20220424210634.png]]
+![[Pasted image 20220424222209.png]]
+
+节点：
+-	主机及其上运行的应用程序
+-	路由器、交换机等网络交换设备
+
+边：
+- 接入网链路：主机连接到互联网的链路
+- 主干链路：路由器间的链路
+
+协议
+
+
 
 ### 1.2 网络边缘
 
