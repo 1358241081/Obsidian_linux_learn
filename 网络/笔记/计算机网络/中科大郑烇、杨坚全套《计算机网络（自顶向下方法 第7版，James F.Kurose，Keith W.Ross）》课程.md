@@ -35,8 +35,15 @@ SDN(Software Defined Network):
 
 
 ### 1.2 网络边缘
+![[Pasted image 20220425121410.png]]
+![[Pasted image 20220425123149.png]]
+p2p: peer to peer模式
 
+![[Pasted image 20220425130912.png]]
+![[Pasted image 20220425130931.png]]
 ### 1.3 网络核心
+
+准备学习
 
 ### 1.4 接入网和物理媒体
 
