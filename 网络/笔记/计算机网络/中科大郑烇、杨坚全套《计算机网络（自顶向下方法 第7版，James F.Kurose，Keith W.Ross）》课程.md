@@ -44,7 +44,17 @@ p2p: peer to peer模式
 ### 1.3 网络核心
 
 准备学习
+![[Pasted image 20220427123600.png]]
+信令：
+时分多路复用
+频分多路复用
+码分多路服用
+![[Pasted image 20220427124056.png]]
+![[Pasted image 20220427124135.png]]
 
+![[Pasted image 20220427124334.png]]
+![[Pasted image 20220427124858.png]]
+![[Pasted image 20220427125025.png]]
 ### 1.4 接入网和物理媒体
 
 ### 1.5 Internet结构和ISP
