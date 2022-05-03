@@ -17,10 +17,10 @@ SDN(Software Defined Network):
 
 ### 1.1 什么是Internet？
 ![[Pasted image 20220422232133.png]]
-![[Pasted image 20220424210246.png]]
+![[Pasted image 20220428130310.png]]
 端系统：end system
-![[Pasted image 20220424210634.png]]
-![[Pasted image 20220424222209.png]]
+![[Pasted image 20220428130517.png]]
+![[Pasted image 20220428130600.png]]
 
 节点：
 -	主机及其上运行的应用程序
