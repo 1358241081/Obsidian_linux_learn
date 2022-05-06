@@ -1,18 +1,10 @@
 ## lvm简介
+
 红帽手册
-https://access.redhat.com/documentation/zh-cn/red_hat_enterprise_linux/7/html/logical_volume_manager_administration/lvm_overview
-<iframe 
- height=800
- width=800  
-src="https://access.redhat.com/documentation/zh-cn/red_hat_enterprise_linux/7/html/logical_volume_manager_administration/lvm_overview"　
->
-</iframe>
+<https://access.redhat.com/documentation/zh-cn/red_hat_enterprise_linux/7/html/logical_volume_manager_administration/lvm_overview>
 
-
-
-<br></br>
-<br></br>
 ### PV
+
 LVM 逻辑卷的底层物理存储单元是一个块设备，比如一个分区或整个磁盘。要在 LVM 逻辑卷中使用该设备，则必须将该设备初始化为物理卷（PV）。将块设备初始化为物理卷会在该设备的起始扇区附近放置一个标签。
 
 默认情况下，LVM 标签是放在第二个 512 字节扇区。可以将标签放在最开始的四个扇区之一来覆盖这个默认设置。这样就允许在必要时 LVM 卷可与其他使用这些扇区的用户共同存在。
@@ -28,66 +20,45 @@ LVM 元数据包含系统中 LVM 卷组的配置详情。默认情况下，卷�
 下图显示 LVM 物理卷的布局。LVM 标签在第二个扇区，接下来是元数据区，之后是设备的可用空间。
 ![[Pasted image 20211228174843.png]]
 
-####  一个磁盘中有多个分区
+#### 一个磁盘中有多个分区
 
 LVM 允许在磁盘分区以外创建物理卷。Red Hat 通常建议创建可覆盖整张磁盘的单一分区，并将其标记为 LVM 物理卷，理由如下：
 
--   方便管理
-    
-    如果每个真实磁盘只出现一次，那么在系统中追踪硬件就比较容易，这在磁盘失败时尤为突出。另外，单一磁盘中有多个物理卷可导致内核在引导时发出未知分区类型警告。
-    
--   条带化性能
-    
-    LVM 无法知道两个物理卷是否在同一物理磁盘中。如果要在两个物理卷处于同一物理磁盘中时创建条带逻辑卷，则条带可能位于同一磁盘的不同分区中。这样会降低性能而不是提升性能。
-    
+- 方便管理
+
+  如果每个真实磁盘只出现一次，那么在系统中追踪硬件就比较容易，这在磁盘失败时尤为突出。另外，单一磁盘中有多个物理卷可导致内核在引导时发出未知分区类型警告。
+
+- 条带化性能
+
+  LVM 无法知道两个物理卷是否在同一物理磁盘中。如果要在两个物理卷处于同一物理磁盘中时创建条带逻辑卷，则条带可能位于同一磁盘的不同分区中。这样会降低性能而不是提升性能。
 
 虽然不建议这样做，但可能会在某种情况下需要将磁盘分为不同的 LVM 物理卷。例如：如果一个系统中有几张磁盘，在将现有系统迁移至 LVM 卷时，可能需要在分区间移动数据。另外，如果有一个非常大的磁盘，并想要有一个以上的卷组以便管理，则需要将该磁盘分区。如果磁盘中有一个以上的分区，同时那些分区处于同一卷组中，则在创建条带卷指定逻辑卷中所包含分区时要特别小心。
 
-####  创建物理卷
+#### 创建物理卷
+
 如果您的物理卷使用整张磁盘设备，该磁盘不得有__`任何分区表`__。
+
 - 使用分区：将分区id设置为`Linux LVM`类型
 - 使用整个硬盘：需要删除分区表，可使用以下命令将第一扇区归零，从而删除现有分区：
+
 **`dd if=/dev/zero of=_PhysicalVolume_ bs=512 count=1`**
 
+<br></br> <br></br>
 
-<br></br>
-<br></br>
 ### VG
+
 物理卷合并为卷组（VG）。这样就创建了磁盘空间池，并可使用它分配逻辑卷。
 
 在卷组中，可用来分配的磁盘空间被分为固定大小的单元，我们称之为扩展。扩展是可进行分配的最小空间单元。在物理卷中，扩展指的是物理扩展。
 
 逻辑卷会被分配成与物理卷扩展相同大小的逻辑扩展。因此卷组中逻辑卷的扩展大小都是一样的。卷组将逻辑扩展与物理扩展匹配。
 
+<br></br> <br></br>
 
-
-
-<br></br>
-<br></br>
 ### LV
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://www.cnblogs.com/wj78080458/p/9927058.html
-
-
-
-
-
-
-
+<https://www.cnblogs.com/wj78080458/p/9927058.html>
 
 ### lvresize
-https://www.systutorials.com/docs/linux/man/8-lvresize/
+
+<https://www.systutorials.com/docs/linux/man/8-lvresize/>
