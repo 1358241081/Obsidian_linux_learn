@@ -84,7 +84,7 @@ action 关系图谱: 查看关系图谱
 
 ^button-jtco
 
-### 表格
+### 自动补全表格
 
 自动补全表格 Advanced Tables
 
