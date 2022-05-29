@@ -63,6 +63,7 @@ _**7、使用图片  示例：**_
 安装第三方插件  Dynamic Table of Contents
 
 ```toc
+title: "## 我是一个标题" 
 ```
 
 ### 绘图插件
