@@ -107,3 +107,17 @@ Editor Syntax Highlight
 规范自己的书写习惯是长期的过程，使用软件辅助统一 Markdown 格式则来得更简单。
 
 默认快捷键ctrl+alt+l
+
+### 视频插件
+
+**一边视频，一边笔记**需要安装两个插件到**Obsidian**，运行这两个插件——**Media Extended和Media Extended BiliBili**，把视频链接粘贴到笔记中，就可以用阅读视图打开笔记，打开视频链接就可以观看分屏视频或者悬浮视频。
+
+<https://zhuanlan.zhihu.com/p/466468893>
+
+<https://www.bilibili.com/video/BV1UY411b7E3>
+
+<https://www.bilibili.com/video/BV1hf4y1P7iN>
+
+<file:///home/liuwh/Downloads/电视剧等多个文件/新必修1/1集合/1.1.1集合的概念/概念课/1集合与元素.mp4>
+
+目前因为未知原因 以上视频不能百分百打开 正在查明原因
