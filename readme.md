@@ -56,6 +56,14 @@ _**7、使用图片  示例：**_
 | w  | 2　   | 可写　　 |
 | x  | 1　   | 可执行　 |
 
+### 如何设置中文
+
+[https://www.v1tx.com/post/obsidian-set-chinese/](https://www.v1tx.com/post/obsidian-set-chinese/)
+
+### 网页播放修改倍速
+
+> document.querySelector('video').playbackRate = 3
+
 ## obsidian 插件篇
 
 ### 自动生成目录
@@ -121,3 +129,5 @@ Editor Syntax Highlight
 <file:///home/liuwh/Downloads/电视剧等多个文件/新必修1/1集合/1.1.1集合的概念/概念课/1集合与元素.mp4>
 
 目前因为未知原因 以上视频不能百分百打开 正在查明原因
+
+
