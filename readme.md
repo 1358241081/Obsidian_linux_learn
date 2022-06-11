@@ -1,4 +1,6 @@
-# 前言
+```toc
+title: "# 前言" 
+```
 
 这是我的obsidian笔记　我将用这个管理工具记录我的编程知识
 以下是目录和相应的简介，关于obsidian可以通过网页搜索相关介绍
@@ -58,11 +60,144 @@ _**7、使用图片  示例：**_
 
 ### 如何设置中文
 
-[https://www.v1tx.com/post/obsidian-set-chinese/](https://www.v1tx.com/post/obsidian-set-chinese/)
+<https://www.v1tx.com/post/obsidian-set-chinese/>
 
 ### 网页播放修改倍速
 
 > document.querySelector('video').playbackRate = 3
+
+### 获取b站视频列表方式
+
+- 打开学习教程的网页
+  此处以b站初二数学为例
+  <https://www.bilibili.com/video/BV1DJ411w7Th?p=25&vd_source=ccbe0c793ac5e34ebb735794692f049e>
+- 点击F12 打开开发者模式，选择网页元素
+
+![[Pasted image 20220611170431.png]]
+
+- 选择视频的url list  右键保存
+
+![[Pasted image 20220611170659.png]]
+
+- 将内容保存到本地任意文本文件内,我这里保存到了url.ini文件内
+
+- 运行如下代码获取所有课程名称列表
+
+```bash
+liuwh@liuwh-PC ~/Desktop> sed 's/<\/li>/\\n/g' url.ini |awk -F "title=\"" '{print $2}'|awk -F "\"" '{print $1}'
+11.1.1三角形的边
+11.1.2三角形的高、中线与角平分线11.1.3三角形的稳定性Y
+11.2.1三角形的内角Y
+11.2.2三角形的外角
+11.3-4 多边形及其内角和
+12.1  全等三角形
+12.2  三角形全等的判定(第1课时)
+12.2  三角形全等的判定(第2课时)
+12.2  三角形全等的判定(第3课时)
+12.2  三角形全等的判定(第4课时)
+12.3  角的平分线的性质
+13.1  轴对称(第1课时)
+13.1  轴对称(第2课时)
+13.1  轴对称(第3课时)
+13.2.1  作轴对称图形
+13.2.2  用坐标表示轴对称
+13.3.1  等腰三角形
+13.3.2  等边三角形
+14.1.1  同底数幂的乘法
+14.1.2  幂的乘方
+14.1.3  积的乘方
+14.1.4  整式的乘法(第1课时)
+14.1.4  整式的乘法(第2课时)
+14.1.5  同底数幂的除法
+14.1.6 整式的除法
+14.2.1  平方差公式
+14.2.2  完全平方公式(第1课时)
+14.2.2  完全平方公式(第2课时)
+14.4.1  提公因式法
+14.4.2  公式法(第1课时)
+14.4.2  公式法(第2课时)
+15.1.1 从分数到分式
+15.1.2 分式的基本性质（第1课时）
+15.1.2 分式的基本性质（第2课时）
+15.2.1 分式的乘除
+15.2.2 分式的加减（第1课时）
+15.2.2 分式的加减（第2课时）
+15.2.3 整数指数幂
+15.3 分式方程（第1课时）
+15.3 分式方程（第2课时）
+16.1 二次根式 第1课时
+16.1 二次根式 第2课时
+16.2 二次根式的乘除 第1课时
+16.2 二次根式的乘除 第2课时
+16.3 二次根式的加减
+17.1 勾股定理 第1课时
+17.1 勾股定理 第2课时
+17.2 勾股定理的逆定理
+18.1.1 平行四边形的性质（第1课时）
+18.1.1 平行四边形的性质（第2课时）
+18.1.2 平行四边形的判定（第1课时）
+18.1.2 平行四边形的判定（第2课时）
+
+```
+
+- 运行以下代码获取视频链接
+
+```bash
+liuwh@liuwh-PC ~/Desktop> sed 's/<\/li>/\\n/g' url.ini |awk -F "href=\"" '{print $2}'| awk -F '"' '{print $1}'|sed 's/^/https:\/\/www.bilibili.com/g'
+https://www.bilibili.com/video/BV1DJ411w7Th?p=1
+https://www.bilibili.com/video/BV1DJ411w7Th?p=2
+https://www.bilibili.com/video/BV1DJ411w7Th?p=3
+https://www.bilibili.com/video/BV1DJ411w7Th?p=4
+https://www.bilibili.com/video/BV1DJ411w7Th?p=5
+https://www.bilibili.com/video/BV1DJ411w7Th?p=6
+https://www.bilibili.com/video/BV1DJ411w7Th?p=7
+https://www.bilibili.com/video/BV1DJ411w7Th?p=8
+https://www.bilibili.com/video/BV1DJ411w7Th?p=9
+https://www.bilibili.com/video/BV1DJ411w7Th?p=10
+https://www.bilibili.com/video/BV1DJ411w7Th?p=11
+https://www.bilibili.com/video/BV1DJ411w7Th?p=12
+https://www.bilibili.com/video/BV1DJ411w7Th?p=13
+https://www.bilibili.com/video/BV1DJ411w7Th?p=14
+https://www.bilibili.com/video/BV1DJ411w7Th?p=15
+https://www.bilibili.com/video/BV1DJ411w7Th?p=16
+https://www.bilibili.com/video/BV1DJ411w7Th?p=17
+https://www.bilibili.com/video/BV1DJ411w7Th?p=18
+https://www.bilibili.com/video/BV1DJ411w7Th?p=19
+https://www.bilibili.com/video/BV1DJ411w7Th?p=20
+https://www.bilibili.com/video/BV1DJ411w7Th?p=21
+https://www.bilibili.com/video/BV1DJ411w7Th?p=22
+https://www.bilibili.com/video/BV1DJ411w7Th?p=23
+https://www.bilibili.com/video/BV1DJ411w7Th?p=24
+https://www.bilibili.com/video/BV1DJ411w7Th?p=25
+https://www.bilibili.com/video/BV1DJ411w7Th?p=26
+https://www.bilibili.com/video/BV1DJ411w7Th?p=27
+https://www.bilibili.com/video/BV1DJ411w7Th?p=28
+https://www.bilibili.com/video/BV1DJ411w7Th?p=29
+https://www.bilibili.com/video/BV1DJ411w7Th?p=30
+https://www.bilibili.com/video/BV1DJ411w7Th?p=31
+https://www.bilibili.com/video/BV1DJ411w7Th?p=32
+https://www.bilibili.com/video/BV1DJ411w7Th?p=33
+https://www.bilibili.com/video/BV1DJ411w7Th?p=34
+https://www.bilibili.com/video/BV1DJ411w7Th?p=35
+https://www.bilibili.com/video/BV1DJ411w7Th?p=36
+https://www.bilibili.com/video/BV1DJ411w7Th?p=37
+https://www.bilibili.com/video/BV1DJ411w7Th?p=38
+https://www.bilibili.com/video/BV1DJ411w7Th?p=39
+https://www.bilibili.com/video/BV1DJ411w7Th?p=40
+https://www.bilibili.com/video/BV1DJ411w7Th?p=41
+https://www.bilibili.com/video/BV1DJ411w7Th?p=42
+https://www.bilibili.com/video/BV1DJ411w7Th?p=43
+https://www.bilibili.com/video/BV1DJ411w7Th?p=44
+https://www.bilibili.com/video/BV1DJ411w7Th?p=45
+https://www.bilibili.com/video/BV1DJ411w7Th?p=46
+https://www.bilibili.com/video/BV1DJ411w7Th?p=47
+https://www.bilibili.com/video/BV1DJ411w7Th?p=48
+https://www.bilibili.com/video/BV1DJ411w7Th?p=49
+https://www.bilibili.com/video/BV1DJ411w7Th?p=50
+https://www.bilibili.com/video/BV1DJ411w7Th?p=51
+https://www.bilibili.com/video/BV1DJ411w7Th?p=52
+```
+ps： 可以将获取的url 和课程列表复制到execl中，就能实现一一对应了。但是这个方法不好，太繁琐，以后改进，希望能够改进为脚本执行，通过curl之类的方式获取html信息
 
 ## obsidian 插件篇
 
@@ -129,5 +264,3 @@ Editor Syntax Highlight
 <file:///home/liuwh/Downloads/电视剧等多个文件/新必修1/1集合/1.1.1集合的概念/概念课/1集合与元素.mp4>
 
 目前因为未知原因 以上视频不能百分百打开 正在查明原因
-
-
