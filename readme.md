@@ -6,6 +6,10 @@ title: "# 前言"
 以下是目录和相应的简介，关于obsidian可以通过网页搜索相关介绍
 或者浏览<https://obsidian.md/> obsidian官网
 
+
+__另外，当需要去想学什么知识的时候，就去学习点数学知识吧__
+
+
 **编写原则**
 _**1、尽量使用文字 而不是图片 ，使用一段时间后发现 如果是图片并不是很方便**_
 _**2、可以引用网页但是存在链接失效的风险 所以遵循上一条原则 尽量使用文字 markdown格式**_
@@ -73,11 +77,11 @@ _**7、使用图片  示例：**_
   <https://www.bilibili.com/video/BV1DJ411w7Th?p=25&vd_source=ccbe0c793ac5e34ebb735794692f049e>
 - 点击F12 打开开发者模式，选择网页元素
 
-![[Pasted image 20220611170431.png]]
+![[视频列表获取示例.png]]
 
 - 选择视频的url list  右键保存
 
-![[Pasted image 20220611170659.png]]
+![[视频列表获取示例2.png]]
 
 - 将内容保存到本地任意文本文件内,我这里保存到了url.ini文件内
 
@@ -197,6 +201,7 @@ https://www.bilibili.com/video/BV1DJ411w7Th?p=50
 https://www.bilibili.com/video/BV1DJ411w7Th?p=51
 https://www.bilibili.com/video/BV1DJ411w7Th?p=52
 ```
+
 ps： 可以将获取的url 和课程列表复制到execl中，就能实现一一对应了。但是这个方法不好，太繁琐，以后改进，希望能够改进为脚本执行，通过curl之类的方式获取html信息
 
 ## obsidian 插件篇
@@ -264,3 +269,6 @@ Editor Syntax Highlight
 <file:///home/liuwh/Downloads/电视剧等多个文件/新必修1/1集合/1.1.1集合的概念/概念课/1集合与元素.mp4>
 
 目前因为未知原因 以上视频不能百分百打开 正在查明原因
+
+
+
