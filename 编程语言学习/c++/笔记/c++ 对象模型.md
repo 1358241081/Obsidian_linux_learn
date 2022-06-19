@@ -44,9 +44,79 @@ Object Oriented (面向对象)
 ### 导读1.mp4
 
 ### conversion function2.mp4
+```c++
+class Fraction
+{
+public:
+	Fraction(int num,int den = 1)
+	:m_numerator(num),m_denominator(den){}
+	
+	operator double()const{  //不要写返回值 
+		return (double)(m_numerator/m_denominator);
+	}
+private:
+	int m_numerator; //分子
+	int m_denominator; //分母
+};
 
+Fraction f(3,5);
+double d =4+f;
+```
+转换函数
 ### non-explicit one argument constructor 3.mp4
+一个实参且没有加explicit关键字的函数
+```c++
+class Fraction
+{
+public:
+	Fraction(int num,int den = 1)
+	:m_numerator(num),m_denominator(den){}
+	
+	Fraction operator + (const Fraction&f){  
+		Fraction a;
+		//do something ...
+		return a;
+	}
+private:
+	int m_numerator; //分子
+	int m_denominator; //分母
+};
 
+Fraction f(3,5);
+Fraction d =4+f; //会出现什么呢？  会将4转换为Fraction
+```
+
+这个行为看起来很好，但是有可能出现下面的问题：
+
+```c++
+class Fraction
+{
+public:
+	Fraction(int num,int den = 1)
+	:m_numerator(num),m_denominator(den){}
+	
+	Fraction operator + (const Fraction&f){  
+		Fraction a;
+		//do something ...
+		return a;
+	}
+	
+	operator double()const{  //不要写返回值 
+		return (double)(m_numerator/m_denominator);
+	}
+private:
+	int m_numerator; //分子
+	int m_denominator; //分母
+};
+
+Fraction f(3,5);
+Fraction d =4+f; //会出现什么呢？  Error 二义性
+```
+显示的加上explict，明确的告诉编译器不要自动转换
+![[Pasted image 20220614122841.png]]
+仍然会报错，但是提示变为不能将double转换为Fraction
+标准库内转换函数的用法
+![[Pasted image 20220614123152.png]]
 ### pointer-like classes 4.mp4
 
 ### function-like classes 5.mp4
