@@ -1,7 +1,3 @@
----
-date created: 2022-05-06 22:38
----
-
 ## NFS（network file system）
 
 什么是 NFS (Network FileSystem)
